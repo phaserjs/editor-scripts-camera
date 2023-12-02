@@ -47,16 +47,6 @@
             "type": {
                 "id": "boolean"
             }
-        },
-        {
-            "name": "duration",
-            "label": "Duration",
-            "tooltip": "",
-            "defValue": 1000,
-            "customDefinition": false,
-            "type": {
-                "id": "number"
-            }
         }
     ]
 }

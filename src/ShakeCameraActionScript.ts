@@ -6,6 +6,7 @@
 import { ScriptNode } from "@phasereditor2d/scripts-core";
 import Phaser from "phaser";
 /* START-USER-IMPORTS */
+import { DurationConfigComp } from "@phasereditor2d/scripts-simple-animations";
 /* END-USER-IMPORTS */
 
 export default class ShakeCameraActionScript extends ScriptNode {
@@ -20,7 +21,6 @@ export default class ShakeCameraActionScript extends ScriptNode {
 
 	public intensity: number = 0.05;
 	public force: boolean = false;
-	public duration: number = 1000;
 
 	/* START-USER-CODE */
 
@@ -28,10 +28,12 @@ export default class ShakeCameraActionScript extends ScriptNode {
 
 		const camera = this.scene.cameras.main;
 
+		const duration = DurationConfigComp.getDuration(this, 1000);
+
 		camera.once(Phaser.Cameras.Scene2D.Events.SHAKE_COMPLETE,
 			() => this.executeChildren(...args));
 
-		camera.shake(this.duration, this.intensity, this.force);
+		camera.shake(duration, this.intensity, this.force);
 	}
 	/* END-USER-CODE */
 }
