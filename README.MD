@@ -97,5 +97,5 @@ You can configure the moving effect with the **Round Pixels**, **Lerp X**, **Ler
 ## Camera Stop Follow Action
 
 *Class: `CameraStopFollowActionScript`*
-`
+
 This action stops the camera following of the script's game object.
