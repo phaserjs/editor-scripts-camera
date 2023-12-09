@@ -6,7 +6,7 @@ These script nodes are very basic and may fit on any Phaser Editor 2D project.
 
 The scripts are coded in TypeScript with ES modules.
 
-## Installing
+## Installing (NPM)
 
 This package depends on the following packages:
 
@@ -32,6 +32,10 @@ Also, you should add this package to the `phasereditor2d.config.json` file in yo
     ]
 }
 ```
+## Installing (vanilla JavaScript)
+
+* Get the files in the [browser](./browser/) folder and copy them into your JavaScript project. It includes Phaser Editor 2D files, JavaScript files, and TypeScript type definitions.
+* Add a `script` tag to the `index.html` file to load the `lib/phasereditor2d_scripts_camera.js` file.
 
 ## Summary
 
