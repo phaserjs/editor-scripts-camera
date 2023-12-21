@@ -28,14 +28,11 @@ export default class CameraStartFollowActionScript extends ScriptNode {
 
 	execute(...args: any[]): void {
 
-		if (!this.gameObject) {
-
-			return;
-		}
+		const obj = this.getActionTargetObject(args);
 
 		const camera = this.scene.cameras.main;
 
-		camera.startFollow(this.gameObject, this.roundPixels, this.lerpX, this.lerpY, this.offsetX, this.offsetY);
+		camera.startFollow(obj, this.roundPixels, this.lerpX, this.lerpY, this.offsetX, this.offsetY);
 	}
 
 	/* END-USER-CODE */
