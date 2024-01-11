@@ -1,4 +1,4 @@
 ## dev
 
-* Adds support to the ActionTarget component.
+* Adds support to the ActionTargetComp component.
 
