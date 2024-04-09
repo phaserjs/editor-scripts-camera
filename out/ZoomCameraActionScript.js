@@ -1,9 +1,9 @@
 // You can write more code here
 /* START OF COMPILED CODE */
-import { ScriptNode } from "@phasereditor2d/scripts-core";
+import { ScriptNode } from "@phaserjs/editor-scripts-core";
 /* START-USER-IMPORTS */
-import { DurationConfigComp } from "@phasereditor2d/scripts-simple-animations";
-import { EaseConfigComp } from "@phasereditor2d/scripts-simple-animations";
+import { DurationConfigComp } from "@phaserjs/editor-scripts-simple-animations";
+import { EaseConfigComp } from "@phaserjs/editor-scripts-simple-animations";
 /* END-USER-IMPORTS */
 export default class ZoomCameraActionScript extends ScriptNode {
     constructor(parent) {

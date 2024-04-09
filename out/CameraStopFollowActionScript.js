@@ -1,6 +1,6 @@
 // You can write more code here
 /* START OF COMPILED CODE */
-import { ScriptNode } from "@phasereditor2d/scripts-core";
+import { ScriptNode } from "@phaserjs/editor-scripts-core";
 /* START-USER-IMPORTS */
 /* END-USER-IMPORTS */
 export default class CameraStopFollowActionScript extends ScriptNode {
