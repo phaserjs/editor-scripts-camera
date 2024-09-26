@@ -1,5 +1,7 @@
 # Phaser Editor Camera Scripts (library)
 
+**Warning: This project is deprecated. It is now part of the [@phaserjs/editor-scripts-quick](https://www.npmjs.com/package/@phaserjs/editor-scripts-quick) library.**
+
 This project contains a few Phaser Editor scripts for handling the camera.
 
 These script nodes are very basic and may fit on any Phaser Editor project.
